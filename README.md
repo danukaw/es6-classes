@@ -1,1 +1,1 @@
-# es6-classes
+React Boilerplate App 
