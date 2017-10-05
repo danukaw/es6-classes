@@ -10,7 +10,7 @@ var ComponentOne = React.createClass({
 
   getDefaultProps : function () {
     return {
-      count : 33333333
+      count : 3
     }
   },
 
@@ -18,11 +18,18 @@ var ComponentOne = React.createClass({
     count : React.PropTypes.number
   },
 
+  clickButton : function () {
+    this.setState({
+      count : this.state.count + 1
+    });
+  },
+
   render : function () {
     return (
       <div>
-        <h3>This react componet is created using </h3>
+        <h3>This react componet is created using React.createClass</h3>
         <p>Count is {this.state.count}</p>
+        <button className ="button" onClick={this.clickButton}> Button One</button>
       </div>
     );
   }

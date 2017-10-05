@@ -15,8 +15,8 @@ require('style!css!sass!ApplicationStyles');
 
 ReactDOM.render(
   <div>
-    <ComponentOne count={"66"}/>
-    <ComponentTwo count = {"9999"}/>
+    <ComponentOne count={66}/>
+    <ComponentTwo count = {9999}/>
   </div>,
   document.getElementById('app')
 );

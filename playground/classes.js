@@ -36,7 +36,7 @@ class Child extends Person {
 class Baby extends Person {
 
   getGreeting() {
-    return `aiiii chuti thathee`
+    return `aiiii chuti thathee aii`
   }
 
 }
