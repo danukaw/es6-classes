@@ -27,7 +27,7 @@ var isAdmin = true;
 var AdminComponent = (Component) => {
   return class AdminComponent extends Component {
 
-    componentDidUpdate(){
+    componentDidUpdate() {
       console.log("AdminComponent is updated");
       if (super.componentDidUpdate) {
         super.componentDidUpdate();
@@ -50,7 +50,6 @@ var AdminComponent = (Component) => {
     }
   }
 }
-
 
 class ComponentTwo extends React.Component {
 
